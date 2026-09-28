@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <p id="quantity">0</p>
+    <button onclick="quantity++; document.getElementById('quantity').innerHTML = quantity;">+1</button>
+    <button onclick="quantity--; document.getElementById('quantity').innerHTML = quantity;">Remove from cart</button>
+    <button onclick="quantity -= 2; document.getElementById('quantity').innerHTML = quantity;">-2</button>
+    <button onclick="quantity -= 3; document.getElementById('quantity').innerHTML = quantity;">-3</button>
+
+    <script>
+        let quantity = 0;
+    </script>
+</body>
+</html>
